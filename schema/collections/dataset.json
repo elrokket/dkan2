@@ -167,7 +167,7 @@
     },
     "distribution": {
       "title": "Distribution",
-      "description": "A container for the array of Distribution objects.",
+      "description": "A container for the array of Distribution objects (data files).",
       "type": "array",
       "items": {
         "title": "Project Open Data Distribution",
@@ -253,7 +253,7 @@
           },
           "schema": {
             "title": "Schema",
-            "description": "Ref of https://frictionlessdata.io/schemas/table-schema.json",
+            "description": "Ref of https://frictionlessdata.io/schemas/table-schema.json<p>This is used to specify a data dictionary or schema that defines fields or column headings in the distribution.</p>",
             "type": "object",
             "properties": {
               "fields": {
